@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const TARGET_COUNT = 500;
+const TARGET_COUNT = 1000;
 const RATE_LIMIT_MS = 500;
 const MET_SEARCH_URL = "https://collectionapi.metmuseum.org/public/collection/v1/search";
 const MET_OBJECT_URL = "https://collectionapi.metmuseum.org/public/collection/v1/objects";
